@@ -1,6 +1,6 @@
 {
   "name": "@typed-rest/axios",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "license": "MIT",
   "publishConfig": {
@@ -16,7 +16,7 @@
   },
   "repository": "github:patarapolw/typed-rest",
   "dependencies": {
-    "@typed-rest/core": "^0.1.1",
+    "@typed-rest/core": "^0.1.2",
     "axios": "0.18.1"
   },
   "devDependencies": {
