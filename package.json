@@ -15,5 +15,9 @@
     "eslint-plugin-standard": ">=4.0.0",
     "lerna": "^3.19.0",
     "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "lerna:publish": "lerna publish",
+    "build": "lerna run build"
   }
 }
