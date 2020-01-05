@@ -1,0 +1,33 @@
+{
+  "name": "@typed-rest/express",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "name": "Pacharapol Withayasakpunt",
+    "email": "patarapolw@gmail.com",
+    "url": "http://www.polvcode.dev"
+  },
+  "repository": "github:patarapolw/typed-rest",
+  "dependencies": {
+    "@typed-rest/core": "*",
+    "@types/express": "^4.17.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  },
+  "peerDependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepack": "yarn build"
+  }
+}

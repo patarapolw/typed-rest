@@ -1,0 +1,27 @@
+{
+  "name": "@typed-rest/core",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "name": "Pacharapol Withayasakpunt",
+    "email": "patarapolw@gmail.com",
+    "url": "http://www.polvcode.dev"
+  },
+  "repository": "github:patarapolw/typed-rest",
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "prebuild": "tsc",
+    "build": "true",
+    "prepack": "yarn build"
+  }
+}
