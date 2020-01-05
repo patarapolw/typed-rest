@@ -28,5 +28,6 @@
   "scripts": {
     "build": "tsc",
     "prepack": "yarn build"
-  }
+  },
+  "gitHead": "c39016e56f1ae7772e9f551a65f40c8892fb3689"
 }

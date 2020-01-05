@@ -16,16 +16,15 @@
   },
   "repository": "github:patarapolw/typed-rest",
   "dependencies": {
-    "@typed-rest/core": "^0.1.1"
+    "@typed-rest/core": "^0.1.1",
+    "axios": "0.18.1"
   },
   "devDependencies": {
     "typescript": "^3.7.4"
   },
-  "peerDependencies": {
-    "axios": "0.18.1"
-  },
   "scripts": {
     "build": "tsc",
     "prepack": "yarn build"
-  }
+  },
+  "gitHead": "c39016e56f1ae7772e9f551a65f40c8892fb3689"
 }
