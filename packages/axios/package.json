@@ -17,7 +17,7 @@
   "repository": "github:patarapolw/typed-rest",
   "dependencies": {
     "@typed-rest/core": "^0.1.2",
-    "axios": "0.18.1"
+    "axios": "0.19.2"
   },
   "devDependencies": {
     "typescript": "^3.7.4"
